@@ -2,9 +2,8 @@
 <html lang="es">
 <head>
   <meta charset="UTF-8">
-  <title>People Analytics Dashboard</title>
+  <title>Portafolio de Dashboards – Christopher Cumi</title>
 
-  <!-- ESTILOS -->
   <style>
     body {
       font-family: Arial, sans-serif;
@@ -13,25 +12,17 @@
       padding: 0;
       color: #333;
     }
-
     header {
       background: #1f4e79;
       color: white;
       padding: 40px 20px;
       text-align: center;
     }
-
-    header h1 {
-      margin: 0;
-      font-size: 2.2rem;
-    }
-
     .container {
       max-width: 1100px;
       margin: 40px auto;
       padding: 0 20px;
     }
-
     .card {
       background: white;
       padding: 25px;
@@ -39,84 +30,72 @@
       box-shadow: 0 4px 12px rgba(0,0,0,0.08);
       margin-bottom: 40px;
     }
-
-    .card h2 {
+    h2 {
       margin-top: 0;
       color: #1f4e79;
     }
-
     img {
       width: 100%;
       border-radius: 10px;
       margin-top: 10px;
       border: 1px solid #ccc;
     }
-
-    footer {
-      text-align: center;
-      color: #666;
-      padding: 30px 0;
-      font-size: 0.9rem;
+    .section-title {
+      font-size: 1.6rem;
+      margin-top: 60px;
+      color: #1f4e79;
     }
   </style>
-
 </head>
+
 <body>
 
-  <!-- HEADER -->
-  <header>
-    <h1>People Analytics Dashboard</h1>
-    <p>Portafolio de Visualización de Datos</p>
-  </header>
+<header>
+  <h1>Portafolio de Dashboards</h1>
+  <p>Visualización de Datos • Power BI • Modelado • DAX</p>
+</header>
 
-  <div class="container">
+<div class="container">
 
-    <!-- DESCRIPCIÓN DEL PROYECTO -->
-    <div class="card">
-      <h2>Descripción del Proyecto</h2>
-      <p>
-        Este dashboard fue elaborado como parte de un portafolio profesional orientado al área de 
-        <strong>Data Visualization</strong> y <strong>People Analytics</strong>.  
-        Su propósito es presentar indicadores clave relacionados con análisis de personal mediante visualizaciones claras y accesibles.
-      </p>
-      <p>
-        Las imágenes que se muestran a continuación corresponden a las diferentes páginas del dashboard que diseñé.
-      </p>
-    </div>
+  <!-- DASHBOARD 1 -->
+  <h2 class="section-title">People Analytics Dashboard</h2>
+  <div class="card">
+    <p>
+      Dashboard desarrollado para análisis de Recursos Humanos, incluyendo rotación, perfiles de empleado,
+      satisfacción laboral, horas extra y métricas clave de talento.  
+      Compuesto por tres páginas temáticas: Overview, Attrition Analysis y Employee Profile.
+    </p>
 
-    <!-- IMÁGENES DEL DASHBOARD -->
-    <div class="card">
-      <h2>Vista del Dashboard</h2>
+    <h3>Página 1</h3>
+    <img src="images/people_analytics_dashboard/Page 1 - Overview.png">
 
-      <h3>Página 1</h3>
-      <img src="images/Page 1 - Overview.png" alt="Dashboard Página 1">
+    <h3>Página 2</h3>
+    <img src="images/people_analytics_dashboard/Page 2 - Attrition Analysis.png">
 
-      <h3>Página 2</h3>
-      <img src="images/Page 2 - Attrition Analysis.png" alt="Dashboard Página 2">
-
-      <h3>Página 3</h3>
-      <img src="images/Page 3 - Employee Profile.png" alt="Dashboard Página 3">
-    </div>
-
-    <!-- ENLACE AL REPO -->
-    <div class="card">
-      <h2>Repositorio del Proyecto</h2>
-      <p>
-        Puedes ver el código completo y los archivos del proyecto en el repositorio de GitHub:
-      </p>
-      <p>
-        <a href="https://github.com/christoforo13/people_analytics_dashboard.github.io" target="_blank">
-          👉 Ver repositorio en GitHub
-        </a>
-      </p>
-    </div>
-
+    <h3>Página 3</h3>
+    <img src="images/people_analytics_dashboard/Page 3 - Employee Profile.png">
   </div>
 
-  <!-- FOOTER -->
-  <footer>
-    Portafolio creado con fines demostrativos.  
-  </footer>
+  <!-- DASHBOARD 2 -->
+  <h2 class="section-title">Sales Dashboard</h2>
+  <div class="card">
+    <p>
+      Dashboard orientado a la visualización de ingresos, ticket promedio, productos vendidos y transacciones.
+      Se utilizó un modelo dimensional compuesto por una tabla de hechos y tres dimensiones.
+      Incluye comparativos mensuales, análisis por tienda, categoría, producto y tendencias diarias.
+    </p>
+
+    <h3>Modelo de Datos</h3>
+    <img src="images/sales_dashboard/modelo.png">
+
+    <h3>Página 1 – Reporte de Ingresos</h3>
+    <img src="images/sales_dashboard/Page 1 - Ingresos.png">
+
+    <h3>Página 2 – Reporte de Productos</h3>
+    <img src="images/sales_dashboard/Page 2 - Productos.png">
+  </div>
+
+</div>
 
 </body>
 </html>
